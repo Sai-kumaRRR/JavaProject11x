@@ -5,9 +5,9 @@ public class Lab067_If_else {
         // How to take the user Input
         // 1. CLI options
         //
-        //int age = Integer.parseInt(args[0]);
+        //   int age = Integer.parseInt(args[0]);
         //2. Scanner Class
-         scanner scanner =new scanner(System.in);
+        scanner scanner = new scanner(System.in);
         System.out.println("Enter your age!");
         int age = scanner.parseInt(System.in);
         System.out.println(age);
@@ -15,11 +15,9 @@ public class Lab067_If_else {
 
         if (age > 18) {
             System.out.println("Allowed to vote!");
-        }else {
-            System.out.println( "Not Allowed!");
+        } else {
+            System.out.println("Not Allowed!");
         }
-
-
 
 
     }
