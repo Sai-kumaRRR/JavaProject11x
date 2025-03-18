@@ -5,7 +5,7 @@ public class Lab067_If_else {
         // How to take the user Input
         // 1. CLI options
         //
-        //   int age = Integer.parseInt(args[0]);
+        //   int age = Integer.parseInt(args[0])
         //2. Scanner Class
         scanner scanner = new scanner(System.in);
         System.out.println("Enter your age!");
