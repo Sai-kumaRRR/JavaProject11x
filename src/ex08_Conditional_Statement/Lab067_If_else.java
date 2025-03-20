@@ -7,9 +7,9 @@ public class Lab067_If_else {
         //
         //   int age = Integer.parseInt(args[0])
         //2. Scanner Class
-        scanner scanner = new scanner(System.in);
+        scanner scanner = new Scanner(System.in);
         System.out.println("Enter your age!");
-        int age = scanner.parseInt(System.in);
+        int age = Scanner.parseInt(System.in);
         System.out.println(age);
 
 
