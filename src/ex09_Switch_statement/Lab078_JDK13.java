@@ -1,24 +1,24 @@
 package ex09_Switch_statement;
 
 public class Lab078_JDK13 {
-    // jdk >13
+    public static void main(String[] args) {
+         // JDK > 13
 
-    int itemcode = 006;
+        int itemCode =006;
 
-           switch(itemcode)
-
-    {
+        switch (itemCode){
+            case 001 , 002 , 005:
+                System.out.println("All of the them are Electronic Gadget");
+                break;
+            case 004 , 006 , 007 :
+                System.out.println( " This is mech");
+                break;
+            default:
+                System.out.println("None");
+        }
     }
+}
 
-
-            case 001,002,005:
-                    System.out.println("all of the them are electronic gadget");
-            break;
-        case 004,006,007:
-                System.out.println(" this is match");
-            break;
-    default:
-            System.out.println("none");
 
 
 

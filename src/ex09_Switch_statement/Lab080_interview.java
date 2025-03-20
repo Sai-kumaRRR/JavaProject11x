@@ -8,10 +8,10 @@ public class Lab080_interview {
                 System.out.println("hello");
                 break;
             case 'A':
-                System.out.println("65")
+                System.out.println("65");
                 break;
             case 'B':
-                System.out.println('B')
+                System.out.println("B");
                 break;
         }
 
