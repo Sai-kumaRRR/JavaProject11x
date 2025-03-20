@@ -5,9 +5,10 @@ public class Lab095_Even_odd_from_interview {
         // to find the even numbers from 1 to 50
 
         // even -> i%2 ==o
-        for ( int i = 0; i <= 50; i++){
-            if(i % 2 == 0);
-            System.out.println("Even -> " +i);
+        for (int i = 0; i <= 50; i++) {
+            if (i % 2 == 0) ;
+            System.out.println("Even -> " + i);
         }
     }
+
 }
