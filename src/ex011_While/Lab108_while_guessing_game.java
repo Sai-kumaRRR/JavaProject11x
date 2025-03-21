@@ -1,6 +1,7 @@
 package ex011_While;
 
-import java.utill.Scanner;
+
+import java.util.Random;
 
 public class Lab108_while_guessing_game {
     public static void main(String[] args) {
@@ -15,4 +16,7 @@ public class Lab108_while_guessing_game {
         int guess;
         int attempts = 0;
     }
+
+
 }
+
