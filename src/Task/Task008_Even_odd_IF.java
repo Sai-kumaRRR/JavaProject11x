@@ -3,7 +3,7 @@ package Task;
 import java.util.Scanner;
 
 public class Task008_Even_odd_IF {
-    public static void main(String[] args) {
+
 
         // create a program
         // take user input &
@@ -14,7 +14,13 @@ public class Task008_Even_odd_IF {
             int number = scanner.nextInt();
 
             // int number2 = Integer.parseInt(args[0];
+            if (number % 2 == 0) {
+                System.out.println("even");
+
+            } else {
+                System.out.println("odd");
+            }
 
         }
     }
-}
+
