@@ -40,5 +40,18 @@ public class Lab127_String_functions {
         System.out.println(sb.toString());
 
 
+        // substring(, )
+        System.out.println(name.substring(1 , 3));
+
+        //toLowerCase()
+        System.out.println("ABHI".toLowerCase());
+
+        // to UpperCase()
+        System.out.println("abhi".toUpperCase());
+
+        // startsWith()
+        System.out.println(name.startsWith("s"));
+
+
         }
 }
