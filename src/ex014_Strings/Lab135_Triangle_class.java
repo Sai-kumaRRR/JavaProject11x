@@ -2,7 +2,7 @@ package ex014_Strings;
 
 import java.util.Scanner;
 
-public class Lab135_Trangle_class {
+public class Lab135_Triangle_class {
     public static void main(String[] args) {
         // Triangle classifier
         // write a program that classifier a triangle based on its side lengths.
