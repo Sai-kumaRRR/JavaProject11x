@@ -10,6 +10,7 @@ public class Lab140_Arrays_Max_min {
 
         int max_output = give_me_max(array);
         System.out.println(max_output);
+
     }
 
     static int give_me_max(int[] array) {
@@ -18,9 +19,20 @@ public class Lab140_Arrays_Max_min {
         for (int i = 0; i < array.length; i++) {
             if (array[i] > max) {
                 max = array[i];
+
+
             }
+
         }
+
         return max;
+
 
     }
 }
+
+
+
+
+
+
