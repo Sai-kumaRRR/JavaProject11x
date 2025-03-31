@@ -11,4 +11,18 @@ public class Lab115_simple_method {
         boolean r = return_boolean();
         System.out.println(r);
     }
-}
+
+    private static boolean return_boolean() {
+
+
+        return false;
+    }
+
+    private static int return_int() {
+        return 0;
+
+    }
+
+
+
+    }

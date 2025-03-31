@@ -1,5 +1,7 @@
 package ex011_While;
 
+import java.util.Scanner;
+
 public class Lab107_while_interview {
     public static void main(String[] args) {
         // factorial series

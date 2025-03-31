@@ -1,13 +1,16 @@
 package ex08_Conditional_Statement;
 
+import java.util.Scanner;
+
 public class Lab067_If_else {
     public static void main(String[] args) {
-        // How to take the user Input
-        // 1. CLI options
+        //  How to take the user Input
+        //  1. CLI options
         //
-        //   int age = Integer.parseInt(args[0])
-        //2. Scanner Class
-        scanner scanner = new Scanner(System.in);
+        //    int age = Integer.parseInt(args[0])
+        // 2. Scanner Class
+        Object system;
+        scanner scanner = new scanner(System.in);
         System.out.println("Enter your age!");
         int age = Scanner.parseInt(System.in);
         System.out.println(age);

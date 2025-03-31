@@ -1,5 +1,7 @@
 package ex09_Switch_statement;
 
+import java.util.Scanner;
+
 public class Lab069_switch_statement {
     public static void main(String[] args) {
         // switch

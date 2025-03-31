@@ -2,6 +2,7 @@ package ex011_While;
 
 
 import java.util.Random;
+import java.util.Scanner;
 
 public class Lab108_while_guessing_game {
     public static void main(String[] args) {

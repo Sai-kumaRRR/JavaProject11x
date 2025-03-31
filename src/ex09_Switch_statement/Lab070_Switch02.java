@@ -14,6 +14,8 @@ public class Lab070_Switch02 {
             case 2:
                 System.out.println("Tue");
                 break;
+            default:
+                throw new IllegalStateException("Unexpected value: " + day);
         }
 
     }

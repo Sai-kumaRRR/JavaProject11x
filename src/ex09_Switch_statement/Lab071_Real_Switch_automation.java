@@ -1,5 +1,7 @@
 package ex09_Switch_statement;
 
+import java.util.Scanner;
+
 public class Lab071_Real_Switch_automation {
     public static void main(String[] args) {
         // web automation
@@ -9,8 +11,8 @@ public class Lab071_Real_Switch_automation {
 
         // string browser = args[0};
         // System.out.println(browser);
-        Scanner scanner = new Scanner(System.in);
-        System.out.println("Enter the browser");
+Scanner scanner = new Scanner(System.in);
+                System.out.println("Enter the browser");
         String browser = scanner.next();
 
         switch (browser) {

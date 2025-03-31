@@ -10,6 +10,11 @@ public class Lab116_user_defined_functions {
         System.out.println(r2);
     }
 
+    private static int sum_of_two_number(int i, int i1) {
+
+        return i +i1;
+    }
+
     static int sum_int_of_two_number(int a, int b) {
         return a + b;
     }

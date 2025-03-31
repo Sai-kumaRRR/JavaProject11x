@@ -3,6 +3,9 @@ package ex015_Arrays;
 import java.util.Scanner;
 
 public class Lab152_2D_multiplication_table {
+    private static int Size_of_the_Table
+            ;
+
     public static void main(String[] args) {
         Scanner scanner = new Scanner(System.in);
         System.out.println("enter the size");
