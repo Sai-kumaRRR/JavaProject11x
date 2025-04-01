@@ -14,7 +14,7 @@ public class Lab154_OOPs {
             double salary;
             byte age;
             double weight;
-            boolean ismale;
+            boolean isMale;
 
 
             // Behaviour / function methods
