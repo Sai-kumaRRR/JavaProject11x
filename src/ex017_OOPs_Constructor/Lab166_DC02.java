@@ -26,7 +26,7 @@ public class Lab166_DC02 {
 
     // DC
      Car(){
-         name = "unkow Car";
+         name = "know Car";
          year = 1999;
          model = "2025";
 
