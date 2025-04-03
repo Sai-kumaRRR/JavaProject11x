@@ -1,6 +1,6 @@
 package ex019_OOPs_Inheritance_multilevel;
 
-public class Lab182_Multi_Level {
+public class Lab171_Multi_Level {
     public static void main(String[] args) {
 
         Son s1 = new Son();
@@ -21,9 +21,9 @@ public class Lab182_Multi_Level {
 
 
         s1 = new Son();
-        s1. gf();
+        s1.gf();
         s1.f();
-        s1.s();;
+        s1.s();
 
     }
 }

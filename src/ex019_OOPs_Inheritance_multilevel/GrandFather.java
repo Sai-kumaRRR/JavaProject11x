@@ -1,7 +1,7 @@
 package ex019_OOPs_Inheritance_multilevel;
 
 public class GrandFather {
-    void gf(){
+    void gf() {
         System.out.println("GF!");
     }
 

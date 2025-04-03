@@ -13,7 +13,6 @@ public class Lab172_Multi_Level02 {
         g2.home();
 
 
-
         Father f2 = new Son();
         f2.home();
 
