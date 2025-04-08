@@ -6,7 +6,7 @@ public class Lab185_abstraction_real {
     private String address;
     private int number;
 
-    void employee() {
+      void employee(){
         System.out.println("DC");
 
     }
@@ -19,17 +19,19 @@ public class Lab185_abstraction_real {
 
     }
 
-    abstract double computePay();
+    double computePay() {
+        return 0;
+    }
 
     void mailCheck() {
         System.out.println("mailing a check to" + this.name + " " + this.address);
     }
+}
+    class C1 extends Employee{
 
-    class C1 extends Employee {
         @Override
         double computePay() {
             return 0;
         }
 
     }
-}
