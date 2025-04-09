@@ -11,19 +11,19 @@ public class Lab155_OOPs02 {
         String gender;
 
         // Behavior
-        void speak;(){
-        }
+        void speak(){}
 
-        void doAssignment(){
 
-        void doTask () {
-        }
+        void doAssignment(){}
 
-        void askQuestion () {
-        }
+        void doTask(){}
 
-        void LearnCoding () {
-        }
+
+        void askQuestion() {}
+
+
+        void LearnCoding() {}
+
 
     }
 
