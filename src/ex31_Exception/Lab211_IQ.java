@@ -8,9 +8,10 @@ public class Lab211_IQ {
             int output = 100 / a;
 
         } catch (ArrayIndexOutOfBoundsException | ArithmeticException
-                 | NumberFormatException e)
-        // new NumberFormatException (); JVM is creating the object.
-        System.out.println(e.getMessage());
+                 | NumberFormatException e) {
+            // new NumberFormatException (); JVM is creating the object.
+            System.out.println(e.getMessage());
 
+        }
     }
 }
