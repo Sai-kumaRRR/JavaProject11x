@@ -21,7 +21,7 @@ public class Lab219_Throw03 {
 
     private static void validateAge(int age) throws Exception {
         if (age < 18){
-            throw new Exception("you can't go, else you will be out of the state");
+            throw new Exception("you can't go, else you will be out of the city");
         }
     }
 
