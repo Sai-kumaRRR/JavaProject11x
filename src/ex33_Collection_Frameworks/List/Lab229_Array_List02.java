@@ -27,6 +27,9 @@ public class Lab229_Array_List02 {
 
         System.out.println(list);
 
+        System.out.println("------");
+
+
         System.out.println("--------");
 
         for (int i = 0; i < list.size(); i++) {
