@@ -3,11 +3,14 @@ package ex33_Collection_Frameworks.List;
 import java.util.Enumeration;
 import java.util.Iterator;
 import java.util.ListIterator;
+import java.util.Vector;
 
 public class Lab233_Vector {
+
     public static void main(String[] args) {
-        Lab233_Vector v = new Lab233_Vector();
-        Lab233_Vector v1 = new Lab233_Vector(10);
+
+        Vector v = new Vector();
+        Vector v1 = new Vector(10);
 
         v.add("SAI");
         v.add("Amit");
@@ -17,7 +20,7 @@ public class Lab233_Vector {
         System.out.println(v.contains("Syush"));
         System.out.println(v);
 
-        System.out.println("-----");
+        System.out.println("----- Normal for loop");
 
         for (int i = 0; i < v.size(); i++) {
             System.out.println(v.get(i));
@@ -43,7 +46,7 @@ public class Lab233_Vector {
         }
         System.out.println("---- ListIterator");
 
-        ListIterator listIyerator = v.listIterator();
+        ListIterator listIterator = v.listIterator();
         while (listIterator.hasNext()) {
 
             System.out.println(listIterator.next());
