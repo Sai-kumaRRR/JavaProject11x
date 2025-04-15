@@ -3,10 +3,11 @@ package ex33_Collection_Frameworks.Set;
 import java.util.*;
 
 public class Lb241_HashSet_LHS {
+
     public static void main(String[] args) {
 
         Set<String> hs1 = new HashSet();
-        // hashing mechinse to store the elements
+        // hashing mechanism to store the elements
         // no orders
         // no duplicates
 
@@ -54,6 +55,27 @@ public class Lb241_HashSet_LHS {
 
         System.out.println(" ------ ");
         Set ts = new TreeSet();
+        // black and red tree mechanism to store the element
+        // order will maintain , natural sorting is done .
+        // natural sorting - ASCII values.
+
+        ts.add("Dapple");
+        ts.add("apple");
+        ts.add("Apple");
+        ts.add("orange");
+        ts.add("watermelon");
+        ts.add("");
+        ts.add(123); // java.lang.classCastException
+        ts.add(null); // java.lang.Null pointerException.
+        System.out.println(ts);
+
+
+        System.out.println(" ----- ");
+
+        for (Object o : ts){
+            System.out.println(o);
+        }
+
 
 
 
