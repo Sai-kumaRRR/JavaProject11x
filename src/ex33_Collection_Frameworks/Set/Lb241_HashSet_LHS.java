@@ -2,7 +2,9 @@ package ex33_Collection_Frameworks.Set;
 
 import java.util.*;
 
+
 public class Lb241_HashSet_LHS {
+
 
     public static void main(String[] args) {
 
@@ -10,26 +12,26 @@ public class Lb241_HashSet_LHS {
         // hashing mechanism to store the elements
         // no orders
         // no duplicates
-
-        hs.add("apple");
-        hs.add("Orange");
-        hs.add("watermelon");
-        hs.add("watermelon");
+        hs1.add("apple");
+        hs1.add("Orange");
+        hs1.add("watermelon");
+        hs1.add("watermelon");
 
         // hs.add(123);
-        hs.add(null);
-        //hs.add(null);
-        System.out.println(hs);
+
+        hs1.add(null);
+        // hs.add(null);
+        System.out.println(hs1);
         System.out.println(" ------- ");
 
-        for (String s : hs) {
+        for (String s : hs1) {
             System.out.println(s);
         }
         System.out.println(" ----- ");
 
 
         // Iterator
-        Iterator iterator = hs.iterator();
+        Iterator iterator = hs1.iterator();
         while (iterator.hasNext()) {
             System.out.println(iterator.next());
 
@@ -38,22 +40,24 @@ public class Lb241_HashSet_LHS {
 
 
         Set lhs = new LinkedHashSet();
-        // LinkedList mechinsm to store the elements
+        // LinkedList mechanism to store the elements
         // order will maintain , no duplicate
 
         lhs.add("papaya");
         lhs.add("apple");
         lhs.add("orange");
-        lhs.add("watermelon");
-        lhs.add("watermelon");
+        lhs.add("WaterMelon");
+        lhs.add("Watermelon");
         lhs.add(null);
         System.out.println(lhs);
         System.out.println(lhs.isEmpty());
-        System.out.println(lhs.contains("apple"));
+        System.out.println(lhs.contains("Apple"));
         System.out.println(lhs.size());
 
 
         System.out.println(" ------ ");
+
+
         Set ts = new TreeSet();
         // black and red tree mechanism to store the element
         // order will maintain , natural sorting is done .
@@ -64,7 +68,7 @@ public class Lb241_HashSet_LHS {
         ts.add("Apple");
         ts.add("orange");
         ts.add("watermelon");
-        ts.add("");
+        ts.add(" ");
         ts.add(123); // java.lang.classCastException
         ts.add(null); // java.lang.Null pointerException.
         System.out.println(ts);
@@ -72,12 +76,9 @@ public class Lb241_HashSet_LHS {
 
         System.out.println(" ----- ");
 
-        for (Object o : ts){
+        for (Object o : ts) {
             System.out.println(o);
         }
-
-
-
 
 
     }
